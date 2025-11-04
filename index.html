@@ -1,62 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Structured Cabling & Data Center Deployment Services">
-<title>Structured Cabling Experts</title>
-style.css
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Structured Cabling & Data Center Deployment Services" />
+  <title>Structured Cabling Experts</title>
+  <!-- Линк към външния CSS файл -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    https://via.placeholder.com/150x80?text=LOGO
-    <h1>Structured Cabling & Data Center Deployment</h1>
-    <p>Your trusted subcontractor for fiber optics and infrastructure</p>
-    https://via.placeholder.com/1200x400?text=Header+Image
-</header>
+  <header class="site-header">
+    <div class="brand">
+      <img src="https://via.placeholder.com/150x80?text=LOGO" alt="Лого на компанията" width="150" height="80">
+      <div class="site-title">
+        <h1>Structured Cabling &amp; Data Center Deployment</h1>
+        <p>Your trusted subcontractor for fiber optics and infrastructure</p>
+      </div>
+    </div>
+    <img class="hero" src="https://via.placeholder.com/1200x400?text=Header+Image" alt="Header image">
+  </header>
 
-<nav>
-    #servicesServices</a>
-    #aboutAbout</a>
-    #contactContact</a>
-</nav>
-
-<section id="services">
-    <h2>Our Services</h2>
+  <nav class="main-nav" aria-label="Главна навигация">
     <ul>
-        <li>Structured Cabling (Optical & Copper)</li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Structured Cabling (Optical &amp; Copper)</li>
         <li>Containment Installation</li>
-        <li>Fiber Splicing (Single & Ribbon)</li>
-        <li>OLT & OTDR Testing</li>
-        <li>Racking & Stacking</li>
+        <li>Fiber Splicing (Single &amp; Ribbon)</li>
+        <li>OLT &amp; OTDR Testing</li>
+        <li>Racking &amp; Stacking</li>
         <li>Rack Management for optimal airflow</li>
         <li>Data Center Deployment Support</li>
-    </ul>
-    https://via.placeholder.com/800x300?text=Services+Image
-</section>
+      </ul>
+      <img src="https://via.placeholder.com/800x300?text=Services+Image" alt="Services image" width="800" height="300">
+    </section>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>We are a specialized subcontractor team delivering high-quality structured cabling and fiber optic solutions. Our expertise ensures reliable infrastructure for data centers and enterprise networks. We also assist with site coordination and supervision when needed.</p>
-    https://via.placeholder.com/800x300?text=About+Us+Image
-</section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        We are a specialized subcontractor team delivering high-quality structured cabling and fiber optic
+        solutions. Our expertise ensures reliable infrastructure for data centers and enterprise networks.
+        We also assist with site coordination and supervision when needed.
+      </p>
+      <img src="https://via.placeholder.com/800x300?text=About+Us+Image" alt="About us image" width="800" height="300">
+    </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" placeholder="Your Name" required>
+
+        <label for="email">Your Email</label>
+        <input id="email" name="email" type="email" placeholder="Your Email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
         <button type="submit">Send Message</button>
-    </form>
-    <p>Connect with us on https://www.linkedin.comLinkedIn</a></p>
-</section>
+      </form>
 
-<footer>
+      <p>
+        Connect with us on
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
     <p>&copy; 2025 Structured Cabling Experts. All rights reserved.</p>
-</footer>
+  </footer>
 
-script.js</script>
+  <!-- Линк към външния JavaScript файл -->
+  <script src="script.js"></script>
 </body>
 </html>
